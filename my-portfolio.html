@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Chinna Reddy: Fullstack Web Developer</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="Shortcut  Icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="my-portfolio.css" type="text/css">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="header-logo">
+            <a href="/" class="logo"><img src="images/home-logo.png" class="img-responsive" alt="chinna-logo"></a>
+        </div>
+        <div class="header-text">
+            <h2>Chinna Reddy<span>Full Stack Web Developer</span></h2>
+        </div>
+    </header>
+    <nav id="container">
+        <div class="toggle">
+            <i class="fa fa-bars menu" aria-hidden="true"></i>
+        </div>
+        <ul>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Projects</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Contact Me</a></li>
+        </ul>
+    </nav>
+    <div class="banner img">
+
+    </div>
+
+    <div class="project-container grid-pad">
+        <div class="sec-heading">
+            <h1>Featured Work</h1>
+        </div>
+        <div class="project-box icon-box">
+            <div class="content">
+                <div class="project-image">
+                    <img src="images/fresh-tomatoes.png" alt="project-image">
+                </div>
+                <div class="project-content">
+                    <h2>Fresh Tomatoes</h2>
+                    <p>My favorite movie trailor website built with python. </p>
+                </div>
+            </div>
+        </div>
+        <div class="project-box icon-box">
+            <div class="content">
+                <div class="project-image">
+                    <img src="images/my-portfolio.png" alt="project-image">
+                </div>
+                <div class="project-content">
+                    <h2>My Portfolio</h2>
+                    <p>A place where you can know about me and my work.</p>
+                </div>
+            </div>
+        </div>
+        <div class="project-box icon-box">
+            <div class="content">
+                <div class="project-image">
+                    <img src="images/fresh-tomatoes.png" alt="project-image">
+                </div>
+                <div class="project-content">
+                    <h2>Fresh Tomatoes</h2>
+                    <p>My favorite movie trailor website built with python. </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+
+    </footer>
+    <script src="http://code.jquery.com/jquery-3.3.1.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $('.menu').click(function(){
+                $('ul').toggleClass('active');
+            });
+        });
+    </script>
+</body>
+</html>
