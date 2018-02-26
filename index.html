@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <title>Chinna Reddy: Fullstack Web Developer</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="Shortcut  Icon" href="images/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="my-portfolio.css" type="text/css">
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/my-portfolio.css" type="text/css">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 </head>
 <body>
@@ -28,15 +28,16 @@
             <li><a href="#">Contact Me</a></li>
         </ul>
     </nav>
-    <div class="banner img">
+    <div class="banner_img_container">
+        <img class="banner" src="/home/chinna/my-portfolio/images/banner-1.jpg" alt="Banner_Image">
 
     </div>
 
-    <div class="project-container grid-pad">
+    <main class="project-container grid-pad">
         <div class="sec-heading">
             <h1>Featured Work</h1>
         </div>
-        <div class="project-box icon-box">
+        <article class="project-box icon-box">
             <div class="content">
                 <div class="project-image">
                     <img src="images/fresh-tomatoes.png" alt="project-image">
@@ -46,8 +47,8 @@
                     <p>My favorite movie trailor website built with python. </p>
                 </div>
             </div>
-        </div>
-        <div class="project-box icon-box">
+        </article>
+        <article class="project-box icon-box">
             <div class="content">
                 <div class="project-image">
                     <img src="images/my-portfolio.png" alt="project-image">
@@ -57,8 +58,8 @@
                     <p>A place where you can know about me and my work.</p>
                 </div>
             </div>
-        </div>
-        <div class="project-box icon-box">
+        </article>
+        <article class="project-box icon-box">
             <div class="content">
                 <div class="project-image">
                     <img src="images/fresh-tomatoes.png" alt="project-image">
@@ -68,13 +69,13 @@
                     <p>My favorite movie trailor website built with python. </p>
                 </div>
             </div>
-        </div>
-    </div>
+        </article>
+    </main>
     <footer>
 
     </footer>
     <script src="http://code.jquery.com/jquery-3.3.1.js"></script>
-    <script type="text/javascript">
+    <script>
         $(document).ready(function(){
             $('.menu').click(function(){
                 $('ul').toggleClass('active');
